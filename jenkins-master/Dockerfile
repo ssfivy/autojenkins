@@ -1,5 +1,5 @@
 # use jenkins blue ocean image
-FROM jenkin/jenkins:lts-alpine
+FROM jenkins/jenkins:lts-alpine
 
 # We used JAVA_OPTS to disable the setup wizard.
 # We won't need it since our setup will be fully automated.
